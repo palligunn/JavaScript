@@ -1,0 +1,24 @@
+1.
+a.
+function geimflaugar(name, life) {
+    var obj = {};
+    obj.name = name;
+    obj.showName = function() {
+        alert(this.name);
+    };
+    return obj;
+}
+var geimflaug1 = geimflaugar('spaceRacer', 10);
+var geimflaug2 = geimflaugar('spaceRacer', 10);
+var geimflaug3 = geimflaugar('spaceRacer', 10);
+
+geimflaug.name
+
+b.
+geimflaug1.name = 'geimflaug'
+geimflaug1.name
+
+c.?
+d.?
+
+2.

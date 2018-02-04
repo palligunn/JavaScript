@@ -22,3 +22,8 @@ c.?
 d.?
 
 2.
+það er notað Teacher() smiðinn til þess að kalla á eiginleika(properties) frá öðrum objectum t.d. í þessu sýnidæmi
+er sýnt að teacher() fær alla eiginleikana sem er í person með að nota person.call()
+
+3.Hvernig ég skil þetta þá er class alveg eins og class í python, hægt er að setja snið í hann og annað eins og function
+í js og gert object í þeim, síðan hægt að kalla á þá seinna.

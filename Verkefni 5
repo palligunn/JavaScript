@@ -1,0 +1,32 @@
+1.Afhverju er getElementById() fljótleglegasta aðferðin?
+         því að elementin eru merk ákveðið með id (t.d. <div id='element'> þá þyrfti bara að gera getElementById(element) og þá fer js 
+         í gegn um html að leita af id = element
+         
+2.Hvað gerir querySelectorAll()? komdu með kóðasýnidæmi ásamt skýringu.
+         það virkar eins og getElementById(), nema með css; querySelectorAll(.background)(velur .background úr css skjali)
+
+3.Hvað er NodeList? Útskýrðu útfrá eftirfarandi kóðasýnidæmi, útskýrðu línu fyrir línu.
+  var elements = document.getElementsByTagName('li');(finnur alla li elementin í kóðanum)
+  if (elements.length > 0) {(sér hvort að lengdin sé meiri en 0, s.s hversu mörg li tög það eru)
+    var el = elements[2];(nær í fyrstu 3 tögin)
+      el.className = 'cool';(sem eru merkt 'cool')
+}
+NoteList finnur nokkur element í einu t.d. <li>(listi),
+
+4.Hvað gerir getElementsByTagName()? Hverju eru skilað? komdu með kóðsýnidæmi.
+   velur öll elementinn sem þú setur inn í svigan eins og li og skilar NodeList, kóðadæmi er t.d. úr spurningu 3
+   
+5.Hvað er málið með auða hnúta (e. whitespace nodes) og vafra? hvernig leysum við slíkt?
+   það er þegar við ýtum á enter, þá kemur textasvæði þó að við skrifum ekki neitt eða vitum af því t.d.
+   <head>
+   </head>
+   <body>
+   </body>
+   það er whitespace þarna á milli, hægt er að tækla þetta með að nota plugin eða <ul
+                                                                                    ><li>
+                                                                                    ><li>
+                                                                                    ><li>
+                                                                                  </ul>
+                                                                                  
+6.Þú ert að smíða Quiz app. Búðu til tvær spurningar (frjálst efnisval). Útlit (css) er
+algjört aukaatriði (frjáls útfærsla). í öðru skjali.

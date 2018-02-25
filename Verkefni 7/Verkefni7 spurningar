@@ -1,0 +1,21 @@
+1. ef að það er keyrt línu sem getur tekið langan tíma að gera (t.d. að niðurhala) þá stoppar allt scriptið þar til að línan er búin,
+   en með callback þá vinnur hún í línunni sem tekur tíma og á sama tíma heldur áfram með kóðan.
+
+2.event loop er þegar að þú gerir (notandi) gerir nokkrar aðgerðir í einu geymir javascript það í callback queue og keyrir það eitt
+  í einu í staðinn fyrir að stoppa allt hitt sem er í gangi
+  
+3.
+function checkUsername() {
+    var target = e.target; 
+} 
+var el = document.getElementById('username'); 
+el.addEventListener('blur', checkUsername, false);
+
+4.ef að það er sett á ture þá mun það ná í alla eventa sem er af sömu týpunni, false er default í þessu ef það er ekki gefið fram
+  
+5.
+  stopPropagation() stoppar það að allir parent-ar verði virkjaðir
+  preventDefault() lætur aðgerðir t.d. úr htlm kóða ekki gera það sem þeir venjulega gera, eins og <input type ='submit> myndi ekki
+  submitta það sem það myndi gera venjulega
+  
+  6. ég náði ekki að láta spurningarnar koma fram, en ég set samt kóðan inn

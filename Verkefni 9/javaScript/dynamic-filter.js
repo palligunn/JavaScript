@@ -51,7 +51,7 @@
       });
     });
   }
-//ekkert að fikta hér að neðan
+//ekkert að fiktað hér að neðan
   function appendRows() {               // Adds rows to the table
     var $tbody = $('<tbody></tbody>');  // Create <tbody> element
     rows.forEach(function(row) {        // For each object in the rows array

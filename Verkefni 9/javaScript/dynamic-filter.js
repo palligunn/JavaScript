@@ -17,7 +17,7 @@
       gender: "Female"
     },
     {
-      name: 'Gordon',    //bætti við skor, date og last name(lName)
+      name: 'Gordon',    //bætti við skor, date og gender
       rate: 75,
       skor: 8,
       date: "12-08-11",
@@ -43,7 +43,7 @@
       $row.append( $('<td></td>').text(person.name) );// Add their name
       $row.append( $('<td></td>').text(person.rate) ); // Add their rate
       $row.append( $('<td></td>').text(person.skor) );
-      $row.append( $('<td></td>').text(person.date) );
+      $row.append( $('<td></td>').text(person.date) );  //appenda textanum hingað
       $row.append( $('<td></td>').text(person.gender) );
       rows.push({ // Create rows array which links people objects to table rows
         person: person,                 // Reference to the person object
@@ -51,7 +51,7 @@
       });
     });
   }
-
+//ekkert að fikta hér að neðan
   function appendRows() {               // Adds rows to the table
     var $tbody = $('<tbody></tbody>');  // Create <tbody> element
     rows.forEach(function(row) {        // For each object in the rows array

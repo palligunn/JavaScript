@@ -1,0 +1,2 @@
+Lesa um "Objects as properties" á bls 534 í bókinni. sliderinn byrjar á blaðsíðu 358
+Skoða dynamic-filter.js  og vinna upp úr því.

@@ -1,4 +1,4 @@
-(function() {
+(function() { //kláraði þetta ekki
 
   var $imgs = $('#gallery img');                  // Store all images
   var $buttons = $('#buttons');                   // Store buttons element
